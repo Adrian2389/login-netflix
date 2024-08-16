@@ -39,8 +39,8 @@
         }
         form input[type="text"],
         form input[type="password"]
-        form input[type="submit"] {
-            width: 100%;
+         {
+            width: 400px;
         }
         .entrar {
             bottom: 130px;
