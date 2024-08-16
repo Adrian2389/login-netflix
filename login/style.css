@@ -5,6 +5,8 @@
 
 }
 body {
+    width: 100vw;
+    height: 100vh;
     min-height: 100dvh;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     display: flex;
