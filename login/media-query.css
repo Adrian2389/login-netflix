@@ -40,7 +40,8 @@
         form input[type="text"],
         form input[type="password"]
          {
-            width: 400px;
+           width: 100%;
+           
         }
         .entrar {
             bottom: 130px;
