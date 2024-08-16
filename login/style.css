@@ -22,6 +22,7 @@ main {
     padding-top: 200px;
     background-color: rgba(0, 0, 0, 0.8);
     
+    
 }
 .login {
     color: white;
@@ -70,8 +71,116 @@ div [type="submit"] {
     height: 45px;
     border-radius: 7px;
     
+    
 }
 ::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.582);
     font-size: 1.2em;
+}
+.codigo  {
+    width: 100%;
+    position: relative;
+    bottom: 130px;
+    font-size: 1em;
+    
+    
+
+}
+.acesso {
+   
+
+    box-sizing: border-box;
+    background: rgba(128, 128, 128, 0.4);
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    bottom: 120px;
+    right: 50px;
+    border-radius: 5px;
+     
+   
+}
+.acesso > a {
+
+    color: white;
+    font-weight: bolder;
+    border: 1px solid dimgray;
+    border: 0;
+    text-decoration: none;
+    vertical-align: text-top; 
+}
+.password a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    position: relative;
+    bottom: 105px;
+}
+.check {
+    position: relative;
+    bottom: 90px;
+    right: 70px;
+}
+div [type="checkbox"] {
+    
+    cursor: pointer;
+    
+    
+}
+div [type="checkbox"]:checked {
+    background-color: black;
+}
+section p {
+    width: 250px;
+    position: relative;
+    bottom: 70px;
+    right: 70px;
+}
+section a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+@media (min-width: 420px) {
+    main {
+        width: 45dvh;
+        padding: 100px;
+        padding-bottom: 80px;
+        padding-top: 180px;
+    }
+    form > h1 {
+        bottom: 150px;
+        right: 80px;
+        font-size: 1.8em;
+    }
+    .tela {
+        bottom: 140px;
+        right: 40px;
+    }
+    form input[type="text"],
+    form input[type="password"] {
+        width: 280px;
+    }
+    .entrar {
+        bottom: 130px;
+        right: 40px;
+    }
+    .codigo {
+        bottom: 110px;
+        font-size: 0.9em;
+    }
+    .acesso {
+        width: 280px;
+        bottom: 100px;
+        right: 40px;
+    }
+    .check {
+        bottom: 70px;
+        right: 50px;
+    }
+    section p {
+        width: 230px;
+        bottom: 50px;
+        right: 50px;
+    }
 }
