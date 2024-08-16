@@ -6,10 +6,13 @@
         body {
             background: none;
             background-color: black;
+            height: 100dvh;
         }
         main {
             width: 100dvw;
             min-height: 100dvh;
+            max-width: 500px;
+            margin: 20px;
             padding: 100px;
             padding-bottom: 80px;
             padding-top: 180px;
@@ -24,8 +27,9 @@
             right: 40px;
         }
         form input[type="text"],
-        form input[type="password"] {
-            width: 300px;
+        form input[type="password"]
+        form input[type="submit"] {
+            width: 100%;
         }
         .entrar {
             bottom: 130px;
