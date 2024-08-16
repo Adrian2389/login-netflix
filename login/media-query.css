@@ -1,5 +1,12 @@
-@media screen and (max-width: 500px) {
+
     @media (max-width: 600px) {
+        form, input {
+            width: 100%;
+        }
+        body {
+            background: none;
+            background-color: black;
+        }
         main {
             width: 45dvh;
             padding: 100px;
@@ -42,4 +49,3 @@
             right: 50px;
         }
     }
-}
