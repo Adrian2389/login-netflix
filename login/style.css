@@ -66,3 +66,17 @@ h1 {
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
     sans-serif;
 }
+p {
+  color: white;
+}
+.acesso {
+  background-color: #8a8888;
+  padding: 0.5rem;
+  width: 300px;
+  border-radius: 5px;
+  text-align: left;
+}
+.acesso a {
+  text-decoration: none;
+  color: white;
+}
