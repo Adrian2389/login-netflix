@@ -7,20 +7,21 @@
 }
 body {
   width: 100%;
-  height: 100vh;
+  margin: 0;
+  height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: url(https://assets.nflxext.com/ffe/siteui/vlv3/20bf1f4d-1c73-48fd-8689-310d6dd80efc/7d257591-d93c-415d-a845-400000527ac0/BR-pt-20240812-POP_SIGNUP_TWO_WEEKS-perspective_WEB_53a3c996-6e10-4694-82cf-57d2ab4f3dd8_small.jpg);
 }
 main {
-  background-color: rgba(0, 0, 0, 0.7);
-  height: 80%;
-  width: 50vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 80dvh;
+  width: 50dvh;
   display: flex;
 }
 form {
-  width: 80%;
+  width: 76%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,6 +31,7 @@ form {
 }
 h1 {
   text-align: center;
+  color: white;
 }
 .tela {
   display: flex;
@@ -37,15 +39,30 @@ h1 {
   margin-bottom: 1.1rem;
 }
 .tela input {
-  padding: 1rem;
+  padding: 1.3rem;
   padding-left: 9rem;
   display: flex;
+  background: transparent;
+  border: 1px solid #8a8888;
+  border-radius: 5px;
 }
 .pass {
   display: flex;
   flex-direction: column;
 }
 .pass input {
-  padding: 1rem;
+  padding: 1.3rem;
   padding-left: 9rem;
+  background: transparent;
+  border: 1px solid #8a8888;
+  border-radius: 5px;
+}
+.entrar input {
+  border: none;
+  background-color: red;
+  padding: 0.8rem 9rem;
+  border-radius: 5px;
+  color: white;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
 }
