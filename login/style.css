@@ -20,6 +20,12 @@ main {
   width: 50dvh;
   display: flex;
 }
+header img {
+  width: 200px;
+  position: relative;
+  bottom: 400px;
+  display: block;
+}
 form {
   width: 76%;
   display: flex;
@@ -45,6 +51,7 @@ h1 {
   background: transparent;
   border: 1px solid #8a8888;
   border-radius: 5px;
+  z-index: 0;
 }
 .pass {
   display: flex;
@@ -60,7 +67,7 @@ h1 {
 .entrar input {
   border: none;
   background-color: red;
-  padding: 0.8rem 9rem;
+  padding: 0.8rem 8.7rem;
   border-radius: 5px;
   color: white;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
@@ -70,13 +77,41 @@ p {
   color: white;
 }
 .acesso {
-  background-color: #8a8888;
+  background-color: rgba(211, 211, 211, 0.322);
   padding: 0.5rem;
   width: 300px;
   border-radius: 5px;
-  text-align: left;
+  text-align: center;
 }
 .acesso a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.password a {
+  text-decoration: none;
+  color: white;
+}
+.check {
+  text-align: left;
+  color: white;
+  position: relative;
+  bottom: 120px;
+  left: 70px;
+}
+.check input {
+  padding: 0;
+  background: transparent;
+  z-index: 0;
+  border: none;
+}
+.assine {
+  position: relative;
+  bottom: 100px;
+  left: 70px;
+}
+.assine a,
+p {
   text-decoration: none;
   color: white;
 }
