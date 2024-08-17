@@ -20,10 +20,34 @@ main {
   display: flex;
 }
 form {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 8rem;
+    -webkit-flex-direction: column;
+    gap: 16px;
+}
+h1 {
+    text-align: center;
+   
+}
+.tela {
+     
+    display: flex;
     flex-direction: column;
-    padding: 7rem;
+    margin-bottom: 1.1rem
+}
+.tela input {
+    padding: 1rem ;
+    padding-left: 9rem;
+    display: flex;
+}
+.pass {
+    display: flex;
+    flex-direction: column;
+}
+.pass input {
+    padding: 1rem;
+    padding-left: 9rem;
 }
