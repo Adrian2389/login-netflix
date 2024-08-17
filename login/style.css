@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background url(https://assets.nflxext.com/ffe/siteui/vlv3/20bf1f4d-1c73-48fd-8689-310d6dd80efc/7d257591-d93c-415d-a845-400000527ac0/BR-pt-20240812-POP_SIGNUP_TWO_WEEKS-perspective_WEB_53a3c996-6e10-4694-82cf-57d2ab4f3dd8_small.jpg);
+  background: url(https://assets.nflxext.com/ffe/siteui/vlv3/20bf1f4d-1c73-48fd-8689-310d6dd80efc/7d257591-d93c-415d-a845-400000527ac0/BR-pt-20240812-POP_SIGNUP_TWO_WEEKS-perspective_WEB_53a3c996-6e10-4694-82cf-57d2ab4f3dd8_small.jpg);
 }
 main {
   background-color: rgba(0, 0, 0, 0.7);
@@ -20,34 +20,32 @@ main {
   display: flex;
 }
 form {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8rem;
-    -webkit-flex-direction: column;
-    gap: 16px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+  -webkit-flex-direction: column;
+  gap: 16px;
 }
 h1 {
-    text-align: center;
-   
+  text-align: center;
 }
 .tela {
-     
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.1rem
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
 }
 .tela input {
-    padding: 1rem ;
-    padding-left: 9rem;
-    display: flex;
+  padding: 1rem;
+  padding-left: 9rem;
+  display: flex;
 }
 .pass {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .pass input {
-    padding: 1rem;
-    padding-left: 9rem;
+  padding: 1rem;
+  padding-left: 9rem;
 }
