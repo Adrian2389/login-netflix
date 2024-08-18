@@ -31,12 +31,12 @@ main {
   transform: translateX(-30%);
 }
 header img {
-  width: 150px;
+  width: 120px;
 }
 header {
   position: relative;
   bottom: 420px;
-  right: 300px;
+  right: 100px;
   display: block;
 }
 form {
