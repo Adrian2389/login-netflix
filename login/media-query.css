@@ -12,4 +12,14 @@
     position: relative;
     left: 30px;
   }
+  header img {
+  }
+  header {
+    position: relative;
+    bottom: 250px;
+    left: 90px;
+    width: 100%;
+    height: 200px;
+    z-index: 90;
+  }
 }
